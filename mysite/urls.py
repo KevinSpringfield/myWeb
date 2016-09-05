@@ -19,13 +19,13 @@ from blog.views import *
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^home/', home),
-    url(r'^portrait/', portrait),
-    url(r'^lifestyle/', lifestyle),
-    url(r'^travel/', travel),
-    url(r'^aboutme/', aboutme),
-    url(r'^link/', link),
-    url(r'^blog/', blog ),
+    url(r'^home', home),
+    url(r'^portrait', portrait),
+    url(r'^lifestyle', lifestyle),
+    url(r'^travel', travel),
+    url(r'^aboutme', aboutme),
+    url(r'^link', link),
+    url(r'^blog', blog ),
     url(r'^portrait1', fullframe ),
     url(r'^portrait2', mediumformat ),
 
