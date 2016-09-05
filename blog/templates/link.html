@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+{% load staticfiles %}
+<html>
+    <head>
+    <title>Welcome to Kevin's Blog</title>
+
+    <link rel="stylesheet" href="{% static 'css/home_2.css' %}">
+    <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet" type="text/css">
+    <style> 
+        .mid { 
+            margin: 100px 40px 20px 40px ;
+            height:900px;
+            margin-top : 100px;
+            background-color: white; 
+            padding: 50px 22% 0px 20%;
+            /*--align-items: center;*/
+            /*justify-content:center; */
+            }
+        .mid div ul{
+            left:50%;
+            top:50%;
+            background-color: white;
+            text-align: center;
+        }    
+        .mid div ul li a{
+            font-size: 35px;
+            fontcolor:black;
+            font-family: Ariel;
+            text-decoration: none;
+        }
+        .mid ul li:hover > a {color: blue;}
+        .mid ul li a:link {color: black;}
+        .mid ul li a:visited {color: black;}
+    
+    </style>
+    </head>
+    
+    <body>
+        <script type="text/javascript">
+
+        </script>
+        <header>
+            <img src="https://scontent-tpe1-1.cdninstagram.com/t51.2885-19/s320x320/10483475_219509501715467_2073717132_a.jpg" height="60" width="60"></img>
+            <div id= "nav">
+                <ul>
+                    <li id ="author"><a href ="/home">Kevin</a></li>
+                    <li><a href = "/portrait">Portrait</a>
+                        <ul>
+                            <li><a href="portrait1">Full Frame</a></li>
+                            <li><a href="portrait2">Medium Format</a></li>
+                        </ul>
+                    </li>
+
+                    <li><a href ="/lifestyle">Lifestyle</a></li>
+                    <li><a href ="/travel">Travel</a></li>
+                    <li><a href ="/blog">Blog</a></li>
+                    <li><a href ="/link"><strong>Link</strong></a></li>
+                    <li><a href ="/aboutme">AboutMe</a></li>
+                </ul>
+            </div>
+        </header>
+
+
+
+        <div class="mid">
+
+            <div>
+                <ul>
+                    <li><a href="https://www.flickr.com/photos/sphuang/">Flickr</a></li>
+                    <li><a href="http://oppi19.wix.com/springfield/">Website</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div id ="footer">
+
+        
+        </div>
+    </body>
+</html>
+
+

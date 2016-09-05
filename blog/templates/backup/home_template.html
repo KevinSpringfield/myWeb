@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+{% load staticfiles %}
+<html>
+    <head>
+    <title>Welcome to Kevin's Blog</title>
+
+    <link rel="stylesheet" href="{% static 'css/home.css' %}">
+    <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <header>
+            <img src="https://scontent-tpe1-1.cdninstagram.com/t51.2885-19/s320x320/10483475_219509501715467_2073717132_a.jpg" height="60" width="60"></img>
+            <div id= "nav">
+                <ul>
+                    <li id ="author"><a href ="/home">Kevin</a></li>
+                    <li><a href = "/portrait">Portrait</a> </li>
+                    <li><a href ="/lifestyle">Lifestyle</a></li>
+                    <li><a href ="/travel">Travel</a></li>
+                    <li><a href ="/blog">Blog</a></li>
+                    <li><a href ="/link">Link</a></li>
+                    <li><a href ="/aboutme">AboutMe</a></li>
+                </ul>
+            </div>
+        </header>
+
+
+
+        <div class = "Middle">
+            <div class = "post">
+                <div class="image">
+                    <img src ="https://static.wixstatic.com/media/624c49_654e69095cf48570bb9886a501d10fde.jpg/v1/fill/w_800,h_800,al_c,q_85,usm_0.66_1.00_0.01/624c49_654e69095cf48570bb9886a501d10fde.jpg" height="400" width="400"/>
+                </div>
+            
+                <div id = "discript">
+                    <p>This is {{user.name}} 's webpage</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div id ="footer">
+            <p></p>
+        
+        </div>
+    </body>
+</html>
+
+
