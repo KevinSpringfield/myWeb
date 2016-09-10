@@ -11,9 +11,6 @@ def home(request):
     return(render_to_response("home.html", locals()))
     #return (HttpResponse("success!"))
 
-def portrait(request):
-    return (render_to_response("fullframe.html", locals()))
-
 def fullframe(request):
     return (render_to_response("fullframe.html", locals()))
 

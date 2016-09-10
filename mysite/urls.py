@@ -20,7 +20,6 @@ from blog.views import *
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^home', home),
-    url(r'^portrait', portrait),
     url(r'^lifestyle', lifestyle),
     url(r'^travel', travel),
     url(r'^aboutme', aboutme),

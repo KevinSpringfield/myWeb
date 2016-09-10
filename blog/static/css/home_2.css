@@ -59,16 +59,18 @@ ul {
 }
 #nav ul li ul li{
     height: 40px;
-    width:180px;
+    width:200px;
     text-align: left;
+
+    left:0;
     
     clear: both;
 }
 #nav ul li ul {
-    height:150px;
+    height:120px;
     width:200px;
     margin: 0px 0px 0px 0px;
-    padding: 5px 5px 5px 5px ;
+    padding: 0px 0px 0px 0px ;
     background: white;
 
 
@@ -128,7 +130,7 @@ ul {
 
 #discript {
     position: relative;
-    background-color: pink;
+    background-color:#ACD6FF; 
     height: 50px;
     width: 400px;
     top:10%;
